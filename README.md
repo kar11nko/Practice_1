@@ -1,5 +1,9 @@
 # Frontend Mentor - Ping coming soon page solution
 
+This is the first joint beginning work of Kaukenova Karina and Yeskermes Aman.
+To begin with, we want to thank you for checking and evaluating our page.
+We used basic understanding of HTML, CSS, JavaScript to write this work.
+
 This is a solution to the [Ping coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
@@ -7,16 +11,12 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -24,7 +24,6 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Submit their email address using an `input` field
 - Receive an error message when the `form` is submitted if:
@@ -33,20 +32,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+This is a screenshot of our solution.
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+![Alt-screen1](screenshot.png)
+![Alt-screen1](screenshot2.png)
 
 ## My process
 
@@ -54,62 +43,57 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- JavaScript
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### What We learned
+We have learned how to use all these tools correctly. How to correctly prioritize when compiling a website. You can see important examples below.
 
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+Snippets:
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
+<ul class="social_networks">
+        <li><a href="#"><img src="./images/facebook.svg" alt="facebook" width="15"></a></li>
+        <li><a href="#"><img src="./images/twitter.svg" alt="twitter" width="24"></a></li>
+          <li><a href="#"><img src="./images/instagram.svg" alt="instagram" width="20"></a></li>
+      </ul>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.proud-of-this-css:
+  button {
+  color: white;
+  background-color: hsl(223, 87%, 63%);
+  border-radius: 50px;
+  box-shadow: 0 5px 5px hsl(223, 100%, 88%);
+  font-size: 15px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 550;
+  padding: 20px 0;
+  margin-left: 20px;
+  flex: 0.3;
+  cursor: pointer;
 }
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+//email format validation pattern//
+function validate() {
+  let value = input.value;
+  const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+  if (value.match(pattern)) return true;
+  else return false;
 }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Fonts Google](https://fonts.google.com/specimen/Libre+Franklin) - This helped us for changing fonts of our text.
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+Karina Kaukenova
+- Github - [@kar11nko](https://github.com/kar11nko)
+Yeskermes Aman
+- Github - [@Yeskermes](https://github.com/Yeskermes)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
+I want to thank Aman for his help. As they say, teamwork makes a dreamwork! We solved everything together.
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free
