@@ -88,10 +88,8 @@ function validate() {
 - [Fonts Google](https://fonts.google.com/specimen/Libre+Franklin) - This helped us for changing fonts of our text.
 
 ## Author
-Karina Kaukenova
-- Github - [@kar11nko](https://github.com/kar11nko)
-Yeskermes Aman
-- Github - [@Yeskermes](https://github.com/Yeskermes)
+- Karina Kaukenova: [@kar11nko](https://github.com/kar11nko)
+- Yeskermes Aman:  [@Yeskermes](https://github.com/Yeskermes)
 
 ## Acknowledgments
 
