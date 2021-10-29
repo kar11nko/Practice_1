@@ -94,4 +94,4 @@ function validate() {
 ## Acknowledgments
 
 I want to thank Aman for his help. As they say, teamwork makes a dreamwork! We solved everything together.
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free
+
